@@ -9,7 +9,7 @@ sealed class TypeSealedClass {
     }
 
     data object Second : TypeSealedClass() {
-        override val name = "First"
+        override val name = "Second"
     }
 
     companion object {
